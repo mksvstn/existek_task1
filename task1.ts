@@ -41,7 +41,6 @@ class Cat extends Animal implements IPet {
         age;
         this.owner = owner;
     }
-    
 }
     
 class Dog extends Animal implements IPet {
@@ -53,9 +52,7 @@ class Dog extends Animal implements IPet {
         super(age,  'Woof!');
         age;
         this.owner = owner;
-    
     }
-    
 }
     
     
